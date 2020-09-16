@@ -45,11 +45,14 @@ You can see actual ant behaviors from the 3-minute highlight video of our record
 
 
 # Examples of Optical Flows
+![Alt-Text](Examples/S2110011/img.gif)
+![Alt-Text](Examples/S2110011/flow_x.gif)
+![Alt-Text](Examples/S2110011/flow_y.gif)
 
-![Alt-Text](https://github.com/ctyeong/OpticalFlows_HsAnts/blob/master/Examples/S2110011/img.gif)
+<!-- ![Alt-Text](https://github.com/ctyeong/OpticalFlows_HsAnts/blob/master/Examples/S2110011/img.gif)
 
 ![Alt-Text](https://github.com/ctyeong/OpticalFlows_HsAnts/blob/master/Examples/S2110011/flow_x.gif)
 
-![Alt-Text](https://github.com/ctyeong/OpticalFlows_HsAnts/blob/master/Examples/S2110011/flow_y.gif)
+![Alt-Text](https://github.com/ctyeong/OpticalFlows_HsAnts/blob/master/Examples/S2110011/flow_y.gif) -->
 
 # References
