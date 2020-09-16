@@ -12,7 +12,7 @@ detect abnormal behaviors although it is trained only with normal ones.
 
 # Brief Backgrounds on *H. saltator*
 
-[![Alt text](https://img.youtube.com/eGFQb45QejQ/VID/0.jpg)](https://www.youtube.com/watch?v=eGFQb45QejQ)
+[![](https://img.youtube.com/eGFQb45QejQ/VID/0.jpg)](https://www.youtube.com/watch?v=eGFQb45QejQ)
 
 
 # Main Configurations for recording
