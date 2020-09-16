@@ -2,9 +2,9 @@
 
 # Introduction
 Optical flow dataset used in 
-*"Accurate Detection of Abnormal State in Ant Colony from Transient Behavioral Observations"*,
+*"Identification of Abnormal States in Videos of Ants Undergoing Social Phase Change"*,
 *Taeyeong Choi, Benjamin Pyenson, Juergen Liebig, Theodore P. Pavlic*, 
-Submitted to IAAI-21
+Submitted to [IAAI-21](https://aaai.org/Conferences/AAAI-21/iaai-21-call/). 
 
 Optical flows were extracted every >2 minutes from 20-day video recording of a colony of >50 Harpegnathos saltator ants.
 First 2-day data were labelled as "stable" class while the rest were as "unstable" to build an One-class classifier that can 
@@ -45,5 +45,7 @@ You can see actual ant behaviors from the 3-minute highlight video of our record
 
 
 # Examples of Optical Flows
+
+![Alt-Text](https://github.com/ctyeong/OpticalFlows_HsAnts/blob/master/Examples/S2110011/flow_x.gif)
 
 # References
