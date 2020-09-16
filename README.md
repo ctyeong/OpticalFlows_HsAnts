@@ -11,10 +11,6 @@ Optical flows were extracted every >2 minutes from 20-day video recording of a c
 First 2-day data were labelled as "stable" class while the rest were as "unstable" to build an One-class classifier that can 
 detect abnormal behaviors although it is trained only with normal ones.  
 
-# Download
-
-Simply tap on [Download](https://drive.google.com/drive/folders/16EorfZk231pVEpzQ_ucoZkPSm2bkqYMX?usp=sharing)!
-
 # Brief Backgrounds on *H. saltator*
 
 - All female workers in *H. saltator* are physically capable of laying eggs.  
@@ -37,17 +33,27 @@ You can see actual ant behaviors from the 3-minute highlight video of our record
 
 # Data Description
 
-- *m* sequential x,y optical flows are sampled every >2 minutes each from two consecutive frame images at the interval of 0.5 seconds. 
+- *m=4* sequential x,y optical flows are sampled every >2 minutes each from two consecutive frame images at the interval of 0.5 seconds. 
 - For each optical flow image, redundant areas on the left and right side are removed, and it is resized to 64x64 spatial resolution. 
 - 80% data of stable are used for training and the rest for test, while all unstable data are only for test. 
 
-|           | Stable | Unstable |
-|-----------|--------|----------|
-| **Total** | 1,333  | 11,984   |
-| **Train** | 1,067  | 0        |
-| **Test**  | 266    | 11,984   |
+|           | Stable    | Unstable    |
+|-----------|-----------|-------------|
+| **Total** | 1,333 x 4 | 11,984 x 4  |
+| **Train** | 1,067 x 4 | 0           |
+| **Test**  | 266 x 4   | 11,984 x 4  |
 
-- Three unique splits are prepared for extensive experiments. 
+- Three unique splits are prepared for extensive experiments in *split1/*, *split2/*, and *split3/*. 
+
+# Usage
+
+- All are located under either *Stable/* or *Unstable/* depending on whether sampling was conducted before or after the removal of gamergates.
+- File names are unique numbers determined by the temporal order of recording, i.e.) lower means earlier. 
+- For each *i*th sample, *m=4* sequential RGB images and optical flows are available in order, respectively:
+  - {img_i-0.jpg, img_i-1.jpg, img_i-2.jpg, img_i-3.jpg}
+  - {flow_x_i-0.jpg, flow_x_i-1.jpg, flow_x_i-2.jpg, flow_x_i-3.jpg}
+  - {flow_y_i-0.jpg, flow_y_i-1.jpg, flow_y_i-2.jpg, flow_y_i-3.jpg}
+- Under *split_i/*, *train.csv* and *test.csv* contain the file numbers of *Stable/* for the corresponding datasets.
 
 # Examples
 
