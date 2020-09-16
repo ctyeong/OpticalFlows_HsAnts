@@ -10,9 +10,13 @@ Optical flows were extracted every >2 minutes from 20-day video recording of a c
 First 2-day data were labelled as "stable" class while the rest were as "unstable" to build an One-class classifier that can 
 detect abnormal behaviors although it is trained only with normal ones.  
 
+
 # Brief Backgrounds on *H. saltator*
 
+
+You can see actual ant behaviors from the 3-minute highlight video of our recording below: 
 [![](http://img.youtube.com/vi/eGFQb45QejQ/0.jpg)](http://www.youtube.com/watch?v=eGFQb45QejQ "")
+
 
 # Main Configurations for recording
 
@@ -21,6 +25,8 @@ detect abnormal behaviors although it is trained only with normal ones.
 1. A social tournament was observed to be initiated involving intensive, aggressive interactions among ants. 
 1. Only little antagonistic actions were found on the last several days. 
 
+
 # Data Description
+
 
 # References
