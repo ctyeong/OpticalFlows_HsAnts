@@ -3,13 +3,12 @@
 # Introduction
 Optical flow dataset used in 
 *"Accurate Detection of Abnormal State in Ant Colony from Transient Behavioral Observations"*,
-*Taeyeong Choi, Benjamin Pyenson, J ̈uergen Liebig, Theodore P. Pavlic*, 
+*Taeyeong Choi, Benjamin Pyenson, Juergen Liebig, Theodore P. Pavlic*, 
 Submitted to IAAI-21
 
 Optical flows were extracted every >2 minutes from 20-day video recording of a colony of >50 Harpegnathos saltator ants.
 First 2-day data were labelled as "stable" class while the rest were as "unstable" to build an One-class classifier that can 
 detect abnormal behaviors although it is trained only with normal ones.  
-
 
 # Brief Backgrounds on *H. saltator*
 
@@ -20,8 +19,7 @@ detect abnormal behaviors although it is trained only with normal ones.
 - The competition accompanies *unstable* state of the colony with frequent hostile interactions among members, such as *dueling* and *dominance biting*. 
 - After several days or weeks, the society cools down to stable state as new gamergates are elected.  
 
-
-# Main Configurations for recording
+# Main Configurations for Recording
 
 1. A colony of 54 *Harpegnathos saltator* was recorded for 20 days by an overhead camera in a lab setting. 
 1. After Day 2, the whole colony was manipulated to be unstable by removing all recognized egg layers. 
@@ -34,5 +32,9 @@ where days are denoted as "D-2", "D-1", "D+1", ..., "D+18" based on the removal 
 
 # Data Description
 
+- $m$ sequential x,y optical flows are sampled every >2 minutes each from two consecutive frame images at the interval of 0.5 seconds. 
+- For each optical flow image, redundant areas on the left and right side are removed, and it is resized to 64x64 spatial resolution. 
+
+# Examples of Optical Flows
 
 # References
