@@ -12,12 +12,16 @@ detect abnormal behaviors although it is trained only with normal ones.
 
 # Brief Backgrounds on *H. saltator*
 
+[![Alt text](https://img.youtube.com/eGFQb45QejQ/VID/0.jpg)](https://www.youtube.com/watch?v=eGFQb45QejQ)
+
 
 # Main Configurations for recording
 
-1. A colony of 54 Harpegnathos saltator was recorded for 20 days by an overhead camera in a lab setting. 
+1. A colony of 54 *Harpegnathos saltator* was recorded for 20 days by an overhead camera in a lab setting. 
 1. After Day 2, the whole colony was manipulated to be unstable by removing all recognized egg layers. 
 1. A social tournament was observed to be initiated involving intensive, aggressive interactions among ants. 
 1. Only little antagonistic actions were found on the last several days. 
 
 # Data Description
+
+# References
