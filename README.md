@@ -21,7 +21,8 @@ detect abnormal behaviors although it is trained only with normal ones.
 
 # Main Configurations for Recording
 
-1. A colony of 54 *Harpegnathos saltator* was recorded for 20 days by an overhead camera in a lab setting. 
+1. A colony of 54 *Harpegnathos saltator* was recorded for 20 days by an overhead camera in a lab setting where the plastic arena was covered by a glass on the top.
+1. Not all ants are visible if some have gone to a chamber for food (crickets) led by a tunnel on the bottom. 
 1. After Day 2, the whole colony was manipulated to be unstable by removing all recognized egg layers. 
 1. A social tournament was observed to be initiated involving intensive, aggressive interactions among ants. 
 1. Only little antagonistic behaviors were found on the last several days. 
