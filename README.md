@@ -56,4 +56,8 @@ You can see actual ant behaviors from the 3-minute highlight video of our record
 ![Flow_X](Examples/S2120001/flow_x.gif)
 ![Flow_Y](Examples/S2120001/flow_y.gif)
 
+![RGB](Examples/S2100009/img.gif)
+![Flow_X](Examples/S2100009/flow_x.gif)
+![Flow_Y](Examples/S2100009/flow_y.gif)
+
 # References
