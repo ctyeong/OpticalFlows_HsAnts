@@ -47,6 +47,7 @@ You can see actual ant behaviors from the 3-minute highlight video of our record
 
 # Usage
 
+- Tap on "Code" at the top right corner and "Download ZIP". Extract the downloaded file under the directory you prefer. 
 - All are located under either *Stable/* or *Unstable/* depending on whether sampling was conducted before or after the removal of gamergates.
 - File names are unique numbers determined by the temporal order of recording, i.e.) lower means earlier. 
 - For each *i*-th sample, *m=4* sequential RGB images and optical flows are available in order, respectively:
