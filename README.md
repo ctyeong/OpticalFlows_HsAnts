@@ -43,17 +43,15 @@ You can see actual ant behaviors from the 3-minute highlight video of our record
 | **Train** | *1,067 x 4 (80%)*  | *0 (0%)*            |
 | **Test**  | *266 x 4 (20%)*    | *11,984 x 4 (100%)* |
 
-- Three unique splits are prepared for extensive experiments in *Split1/*, *Split2/*, and *Split3/*. 
-
 # Usage
 
 - All are located under either *Stable/* or *Unstable/* depending on whether sampling was conducted before or after the removal of gamergates.
 - File names are unique numbers determined by the temporal order of recording, i.e.) lower means earlier. 
 - For each *i*-th sample, *m=4* sequential RGB images and optical flows are available in order, respectively:
-  - {img_i-0.jpg, img_i-1.jpg, img_i-2.jpg, img_i-3.jpg}
-  - {flow_x_i-0.jpg, flow_x_i-1.jpg, flow_x_i-2.jpg, flow_x_i-3.jpg}
-  - {flow_y_i-0.jpg, flow_y_i-1.jpg, flow_y_i-2.jpg, flow_y_i-3.jpg}
-- Under *Split_k/*, *train.csv* and *test.csv* each contain the unique file numbers of *Stable/* for the corresponding dataset.
+  - *{img_i-0.jpg, img_i-1.jpg, img_i-2.jpg, img_i-3.jpg}*
+  - *{flow_x_i-0.jpg, flow_x_i-1.jpg, flow_x_i-2.jpg, flow_x_i-3.jpg}*
+  - *{flow_y_i-0.jpg, flow_y_i-1.jpg, flow_y_i-2.jpg, flow_y_i-3.jpg}*
+- *Split_k/* provides a unique split of *train.csv* and *test.csv*, each of which contains the involved file numbers of *Stable/* for the corresponding dataset. (*Split1*, *Split2*, and *Split3* here were used to report average performance of proposed model in our *IAAI-21* work)
 
 # Optical Flow Examples
 
