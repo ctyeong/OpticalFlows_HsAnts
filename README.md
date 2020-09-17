@@ -45,6 +45,8 @@ You can see actual ant behaviors from the 3-minute highlight video of our record
 | **Train** | *1,067 x 4 (80%)*  | *0 (0%)*            |
 | **Test**  | *266 x 4 (20%)*    | *11,984 x 4 (100%)* |
 
+- All optical flows were extracted by the code at [Temporal Segment Networks (TSN) [1]](https://github.com/yjxiong/temporal-segment-networks).
+
 # Usage
 
 - Tap on "Code" at the top right corner and "Download ZIP". Extract the downloaded file under the directory you prefer. 
@@ -81,3 +83,5 @@ You can see actual ant behaviors from the 3-minute highlight video of our record
 ![Flow_Y](Examples/S2180005/flow_y-2.gif)
 
 # References
+
+[1] Limin Wang, Yuanjun Xiong, Zhe Wang, Yu Qiao, Dahua Lin, Xiaoou Tang, and Luc Van Gool, Temporal Segment Networks: Towards Good Practices for Deep Action Recognition, *ECCV*, 2016.
