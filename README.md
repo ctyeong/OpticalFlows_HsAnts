@@ -37,25 +37,25 @@ You can see actual ant behaviors from the 3-minute highlight video of our record
 - For each optical flow image, redundant areas on the left and right side are removed, and it is resized to 64x64 spatial resolution. 
 - 80% data of stable are used for training and the rest for test, while all unstable data are only for test. 
 
-|           | Stable    | Unstable    |
-|-----------|-----------|-------------|
-| **Total** | 1,333 x 4 | 11,984 x 4  |
-| **Train** | 1,067 x 4 | 0           |
-| **Test**  | 266 x 4   | 11,984 x 4  |
+|           | Stable             | Unstable            |
+|-----------|--------------------|---------------------|
+| **Total** | *1,333 x 4 (100%)* | *11,984 x 4 (100%)* |
+| **Train** | *1,067 x 4 (80%)*  | *0 (0%)*            |
+| **Test**  | *266 x 4 (20%)*    | *11,984 x 4 (100%)* |
 
-- Three unique splits are prepared for extensive experiments in *split1/*, *split2/*, and *split3/*. 
+- Three unique splits are prepared for extensive experiments in *Split1/*, *Split2/*, and *Split3/*. 
 
 # Usage
 
 - All are located under either *Stable/* or *Unstable/* depending on whether sampling was conducted before or after the removal of gamergates.
 - File names are unique numbers determined by the temporal order of recording, i.e.) lower means earlier. 
-- For each *i*th sample, *m=4* sequential RGB images and optical flows are available in order, respectively:
+- For each *i*-th sample, *m=4* sequential RGB images and optical flows are available in order, respectively:
   - {img_i-0.jpg, img_i-1.jpg, img_i-2.jpg, img_i-3.jpg}
   - {flow_x_i-0.jpg, flow_x_i-1.jpg, flow_x_i-2.jpg, flow_x_i-3.jpg}
   - {flow_y_i-0.jpg, flow_y_i-1.jpg, flow_y_i-2.jpg, flow_y_i-3.jpg}
-- Under *split_i/*, *train.csv* and *test.csv* contain the file numbers of *Stable/* for the corresponding datasets.
+- Under *Split_k/*, *train.csv* and *test.csv* each contain the unique file numbers of *Stable/* for the corresponding dataset.
 
-# Examples
+# Optical Flow Examples
 
 (RGB - Flow_X - Flow_Y)
 
