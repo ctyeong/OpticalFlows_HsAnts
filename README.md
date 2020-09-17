@@ -28,7 +28,9 @@ detect abnormal behaviors although it is trained only with normal ones.
 1. A social tournament was observed to be initiated involving intensive, aggressive interactions among ants. 
 1. Only little antagonistic behaviors were found on the last several days. 
 
-You can see actual ant behaviors from the 3-minute highlight video of our recording below where days are denoted as "D-2", "D-1", "D+1", ..., "D+18" based on the removal event: 
+# Short Highlight Video
+
+You can see actual ant behaviors from the 3-minute highlight video of our recording below where days are denoted as "D-2", "D-1", "D+1", ..., "D+18" at the top-right corner based on the removal event: 
 [![](http://img.youtube.com/vi/eGFQb45QejQ/0.jpg)](http://www.youtube.com/watch?v=eGFQb45QejQ "")
 
 # Data Description
