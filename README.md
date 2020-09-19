@@ -82,6 +82,10 @@ You can see actual ant behaviors from the 3-minute highlight video of our record
 <!-- ![Flow_X](Examples/S2180005/flow_x-2.gif) -->
 <!-- ![Flow_Y](Examples/S2180005/flow_y-2.gif) -->
 
+# Contact
+
+If there is any questions about the dataset, please do not hesitate to shoot an email to tchoi4@asu.edu or bpyenson@asu.edu. Thanks!
+
 # References
 
 [1] Limin Wang, Yuanjun Xiong, Zhe Wang, Yu Qiao, Dahua Lin, Xiaoou Tang, and Luc Van Gool, Temporal Segment Networks: Towards Good Practices for Deep Action Recognition, *ECCV*, 2016.
