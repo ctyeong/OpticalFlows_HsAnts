@@ -62,25 +62,25 @@ You can see actual ant behaviors from the 3-minute highlight video of our record
 
 (RGB - Flow_X - Flow_Y)
 
-![RGB](Examples/S2110011/img.gif)
-![Flow_X](Examples/S2110011/flow_x.gif)
-![Flow_Y](Examples/S2110011/flow_y.gif)
+![RGB-X-Y](Examples/S2110011/img_x_y.gif)
+<!-- ![Flow_X](Examples/S2110011/flow_x.gif)
+![Flow_Y](Examples/S2110011/flow_y.gif) -->
 
-![RGB](Examples/S2120001/img.gif)
-![Flow_X](Examples/S2120001/flow_x.gif)
-![Flow_Y](Examples/S2120001/flow_y.gif)
+![RGB-X-Y](Examples/S2120001/img_x_y.gif)
+<!-- ![Flow_X](Examples/S2120001/flow_x.gif)
+![Flow_Y](Examples/S2120001/flow_y.gif) -->
 
-![RGB](Examples/S2100009/img.gif)
-![Flow_X](Examples/S2100009/flow_x.gif)
-![Flow_Y](Examples/S2100009/flow_y.gif)
+![RGB-X-Y](Examples/S2100009/img_x_y.gif)
+<!-- ![Flow_X](Examples/S2100009/flow_x.gif)
+![Flow_Y](Examples/S2100009/flow_y.gif) -->
 
-![RGB](Examples/S2180005/img.gif)
-![Flow_X](Examples/S2180005/flow_x.gif)
-![Flow_Y](Examples/S2180005/flow_y.gif)
+![RGB-X-Y](Examples/S2180005/img_x_y.gif)
+<!-- ![Flow_X](Examples/S2180005/flow_x.gif)
+![Flow_Y](Examples/S2180005/flow_y.gif) -->
 
-![RGB](Examples/S2180005/img-2.gif)
-![Flow_X](Examples/S2180005/flow_x-2.gif)
-![Flow_Y](Examples/S2180005/flow_y-2.gif)
+![RGB-X-Y](Examples/S2180005/img_x_y-2.gif)
+<!-- ![Flow_X](Examples/S2180005/flow_x-2.gif) -->
+<!-- ![Flow_Y](Examples/S2180005/flow_y-2.gif) -->
 
 # References
 
