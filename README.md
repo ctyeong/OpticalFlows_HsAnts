@@ -84,7 +84,7 @@ You can see actual ant behaviors from the 3-minute highlight video of our record
 
 # Contact
 
-If there is any questions about the dataset, please do not hesitate to shoot an email to tchoi4@asu.edu or bpyenson@asu.edu. Thanks!
+If there is any questions about the dataset, please do not hesitate to shoot an email to tchoi@lincoln.ac.uk or bpyenson@asu.edu. Thanks!
 
 # References
 
