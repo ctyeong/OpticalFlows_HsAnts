@@ -11,6 +11,11 @@ Optical flows were extracted every >2 minutes from 20-day video recording of a c
 First 2-day data were labelled as "stable" class while the rest were as "unstable" to build an One-class classifier that can 
 detect abnormal behaviors although it is trained only with normal ones.  
 
+# Contents 
+
+1. [Brief Backgrounds on *H. saltator*](https://github.com/ctyeong/OpticalFlows_HsAnts#brief-backgrounds-on-hsaltator)
+
+
 # Brief Backgrounds on *H. saltator*
 
 - All female workers in *H. saltator* are physically capable of laying eggs.  
@@ -85,6 +90,19 @@ You can see actual ant behaviors from the 3-minute highlight video of our record
 # Benchmark Performance
 
 Please follow [this link](https://github.com/ctyeong/IO-GEN#benchmark-performance) to the website of the Python codes for IO-GEN, which my colleagues and I have proposed to effectively detect unstable class when only stable class is available to learn the parameters of the model.
+
+# Citation
+
+If you use this code or reference IO-GEN for your research, please cite our paper:
+
+```
+@inproceedings{CPLP21,
+  title={Identification of Abnormal States in Videos of Ants Undergoing Social Phase Change},
+  author={Choi, Taeyeong and Pyenson, Benjamin and Liebig, Juergen and Pavlic, Theodore P},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2021}
+}
+```
 
 # Contact
 
