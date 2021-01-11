@@ -43,7 +43,7 @@ detect abnormal behaviors although it is trained only with normal ones.
 
 # Short Highlight Video
 
-You can see actual ant behaviors from the 3-minute highlight video of our recording below where days are denoted as "D-2", "D-1", "D+1", ..., "D+18" at the top-right corner based on the removal event: 
+You can see actual ant behaviors from the 3-minute highlight video of our recording below where days are denoted as "D-2", "D-1", "D+1", ..., "D+18" at the top-right corner based on the removal event. To watch, click the image below: 
 [![](http://img.youtube.com/vi/eGFQb45QejQ/0.jpg)](http://www.youtube.com/watch?v=eGFQb45QejQ "")
 
 # Data Description
