@@ -13,8 +13,16 @@ detect abnormal behaviors although it is trained only with normal ones.
 
 # Contents 
 
-1. [Brief Backgrounds on *H. saltator*](https://github.com/ctyeong/OpticalFlows_HsAnts#brief-backgrounds-on-hsaltator)
-
+1. [Brief Backgrounds on *H. saltator*](https://github.com/ctyeong/OpticalFlows_HsAnts#brief-backgrounds-on-h-saltator)
+1. [Brief Backgrounds on *H. saltator*](https://github.com/ctyeong/OpticalFlows_HsAnts#brief-backgrounds-on-h-saltator)
+1. [Main Configurations for Recording](https://github.com/ctyeong/OpticalFlows_HsAnts#main-configurations-for-recording)
+1. [Short Highlight Video](https://github.com/ctyeong/OpticalFlows_HsAnts#short-highlight-video)
+2. [Data Description](https://github.com/ctyeong/OpticalFlows_HsAnts#data-description)
+3. [Usage](https://github.com/ctyeong/OpticalFlows_HsAnts#usage)
+4. [Optical Flow Examples](https://github.com/ctyeong/OpticalFlows_HsAnts#optical-flow-examples)
+5. [Benchmark Performance](https://github.com/ctyeong/OpticalFlows_HsAnts#benchmark-performance)
+6. [Citation](https://github.com/ctyeong/OpticalFlows_HsAnts#citation)
+7. [References](https://github.com/ctyeong/OpticalFlows_HsAnts#references)
 
 # Brief Backgrounds on *H. saltator*
 
@@ -93,7 +101,7 @@ Please follow [this link](https://github.com/ctyeong/IO-GEN#benchmark-performanc
 
 # Citation
 
-If you use this code or reference IO-GEN for your research, please cite our paper:
+If you use this dataset for your research, please cite our paper:
 
 ```
 @inproceedings{CPLP21,
