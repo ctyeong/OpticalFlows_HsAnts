@@ -97,7 +97,7 @@ You can see actual ant behaviors from the 3-minute highlight video of our record
 
 # Benchmark Performance
 
-Please follow [this link](https://github.com/ctyeong/IO-GEN#benchmark-performance) to the website of the Python codes for IO-GEN, which my colleagues and I have proposed to effectively detect unstable class when only stable class is available to learn the parameters of the model.
+Please follow [this link](https://github.com/ctyeong/IO-GEN#benchmark-performance) to the website of the Python codes for IO-GEN, which my colleagues and I have proposed in [this paper](https://github.com/ctyeong/OpticalFlows_HsAnts#citation) to effectively detect unstable class when only stable class is available to learn the parameters of the model.
 
 # Citation
 
