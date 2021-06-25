@@ -2,10 +2,9 @@
 
 
 # Introduction
-Optical flow dataset used in 
-*"Identification of Abnormal States in Videos of Ants Undergoing Social Phase Change"*,
-*Taeyeong Choi, Benjamin Pyenson, Juergen Liebig, Theodore P. Pavlic*, 
-Submitted to [IAAI-21](https://aaai.org/Conferences/AAAI-21/iaai-21-call/). 
+Optical flow dataset used in paper [*"Identification of Abnormal States in Videos of Ants Undergoing Social Phase Change"*,
+*Taeyeong Choi, Benjamin Pyenson, Juergen Liebig, and Theodore P. Pavlic*](https://ojs.aaai.org/index.php/AAAI/article/view/17794).
+For citation, please see [this](https://github.com/ctyeong/OpticalFlows_HsAnts#citation). 
 
 Optical flows were extracted every >2 minutes from 20-day video recording of a colony of >50 Harpegnathos saltator ants.
 First 2-day data were labelled as "stable" class while the rest were as "unstable" to build an One-class classifier that can 
@@ -14,15 +13,14 @@ detect abnormal behaviors although it is trained only with normal ones.
 # Contents 
 
 1. [Brief Backgrounds on *H. saltator*](https://github.com/ctyeong/OpticalFlows_HsAnts#brief-backgrounds-on-h-saltator)
-1. [Brief Backgrounds on *H. saltator*](https://github.com/ctyeong/OpticalFlows_HsAnts#brief-backgrounds-on-h-saltator)
-1. [Main Configurations for Recording](https://github.com/ctyeong/OpticalFlows_HsAnts#main-configurations-for-recording)
-1. [Short Highlight Video](https://github.com/ctyeong/OpticalFlows_HsAnts#short-highlight-video)
-2. [Data Description](https://github.com/ctyeong/OpticalFlows_HsAnts#data-description)
-3. [Usage](https://github.com/ctyeong/OpticalFlows_HsAnts#usage)
-4. [Optical Flow Examples](https://github.com/ctyeong/OpticalFlows_HsAnts#optical-flow-examples)
-5. [Benchmark Performance](https://github.com/ctyeong/OpticalFlows_HsAnts#benchmark-performance)
-6. [Citation](https://github.com/ctyeong/OpticalFlows_HsAnts#citation)
-7. [References](https://github.com/ctyeong/OpticalFlows_HsAnts#references)
+2. [Main Configurations for Recording](https://github.com/ctyeong/OpticalFlows_HsAnts#main-configurations-for-recording)
+3. [Short Highlight Video](https://github.com/ctyeong/OpticalFlows_HsAnts#short-highlight-video)
+4. [Data Description](https://github.com/ctyeong/OpticalFlows_HsAnts#data-description)
+5. [Usage](https://github.com/ctyeong/OpticalFlows_HsAnts#usage)
+6. [Optical Flow Examples](https://github.com/ctyeong/OpticalFlows_HsAnts#optical-flow-examples)
+7. [Benchmark Performance](https://github.com/ctyeong/OpticalFlows_HsAnts#benchmark-performance)
+8. [Citation](https://github.com/ctyeong/OpticalFlows_HsAnts#citation)
+9. [References](https://github.com/ctyeong/OpticalFlows_HsAnts#references)
 
 # Brief Backgrounds on *H. saltator*
 
