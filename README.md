@@ -2,8 +2,7 @@
 
 
 # Introduction
-Optical flow dataset used in paper [*"Identification of Abnormal States in Videos of Ants Undergoing Social Phase Change"*,
-*Taeyeong Choi, Benjamin Pyenson, Juergen Liebig, and Theodore P. Pavlic*](https://ojs.aaai.org/index.php/AAAI/article/view/17794){:target="_blank"}.
+Optical flow dataset used in paper <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17794" target="_blank">*"Identification of Abnormal States in Videos of Ants Undergoing Social Phase Change", Taeyeong Choi, Benjamin Pyenson, Juergen Liebig, and Theodore P. Pavlic.*</a>
 For citation, please see [this](https://github.com/ctyeong/OpticalFlows_HsAnts#citation). 
 
 Optical flows were extracted every >2 minutes from 20-day video recording of a colony of >50 Harpegnathos saltator ants.
